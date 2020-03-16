@@ -7,7 +7,7 @@ var markers = [];
 var autocomplete;
 var countryRestrict = {'country': 'us'};
 var MARKER_PATH = 'https://developers.google.com/maps/documentation/javascript/images/marker_green';
-// var MARKER_PATH = 'img/';
+var MARKER_PATH = 'img/';
 var hostnameRegexp = new RegExp('^https?://.+?/');
 var OmniProv_Hotel = {lat: 41.825491, lng: -71.415729}; 
 var countries = {

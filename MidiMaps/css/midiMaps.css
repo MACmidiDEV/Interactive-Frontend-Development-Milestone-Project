@@ -26,8 +26,8 @@
     background-image: url("../img/map2.jpg");
     background-image: url("../img/map3.jpg");
     background-image: url("../img/map1.jpg");
-    /* background-position: top 200px; */
-    background-size: 125%;
+    background-position: bottom right;
+    background-size: 83%;
     background-attachment: fixed;
     background-origin: border-box;
     /* background-image: repeating-linear-gradient(rgba(93, 21, 181, 0.93) 8.39%, #af3136 89.92%); */
@@ -42,12 +42,11 @@
     height: 150px;
 }
 
-tr>td:hover {
+/* tr>td:hover {
     padding-left: 10%;
     background-color: #d0d0d059;
     border-radius: 30em;
-
-}
+} */
 
 .placeIcon {
     float: right;
