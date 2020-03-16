@@ -2,4 +2,5 @@ All previous versions of Interactive-Frontend-Development-Milestone-Project
   -Merged all Repos with commit History.
   
 Project built over the span of a few months 
-  -attempt to display proggression of skillset.
+  -attempt to display proggression of skillset 
+   by importing all versions of the project.
