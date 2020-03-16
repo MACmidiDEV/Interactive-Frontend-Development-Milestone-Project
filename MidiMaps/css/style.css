@@ -191,9 +191,9 @@ html, body {
 
 
   #sidebar-brand-country {
-    background-color: rgba(9, 238, 39, 0.13);
+    background-color: rgba(255, 255, 255, 0.13);
     font-size: 2.2rem;
-    letter-spacing: 0.55rem;
+    letter-spacing: 0.25rem;
   }
 
 
