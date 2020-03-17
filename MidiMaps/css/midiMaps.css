@@ -31,7 +31,7 @@
     background-image: url("../img/nasa.jpg");
     background-position: center;
     background-size: 100%;
-    background-attachment: fixed;
+    background-size: cover;
     background-origin: border-box;
     /* background-image: repeating-linear-gradient(rgba(93, 21, 181, 0.93) 8.39%, #af3136 89.92%); */
     overflow: hidden;
