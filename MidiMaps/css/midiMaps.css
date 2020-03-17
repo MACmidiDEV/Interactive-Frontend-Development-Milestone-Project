@@ -26,8 +26,11 @@
     background-image: url("../img/map2.jpg");
     background-image: url("../img/map3.jpg");
     background-image: url("../img/map1.jpg");
-    background-position: bottom right;
-    background-size: 83%;
+    background-image: url("../img/mapLogoX.png");
+    background-image: url("../img/mapX.png");
+    background-image: url("../img/nasa.jpg");
+    background-position: center;
+    background-size: 100%;
     background-attachment: fixed;
     background-origin: border-box;
     /* background-image: repeating-linear-gradient(rgba(93, 21, 181, 0.93) 8.39%, #af3136 89.92%); */
@@ -68,7 +71,7 @@
     #locationField {
         /* display: none; */
 
-        box-shadow: 10px 10px 10px #70b47e93;
+        box-shadow: 10px 10px 10px #ffffff93;
         margin-top: 2px;
 
     }
@@ -132,7 +135,7 @@
 
 @mediaX (max-width: 575px) {
     .sidebar .sidebar-brand {
-        height: 30px;
+        /* height: 30px; */
         letter-spacing: 3.5em;
     }
 
@@ -337,8 +340,9 @@
     }
 
     #sidebar-brand-country {
-        /* margin-top: 8%; */
-        font-size: 20em;
+        background-color: black;
+        font-size: 1.5em;
+        background-attachment: fixed;
     }
 
     /* #iLogo{

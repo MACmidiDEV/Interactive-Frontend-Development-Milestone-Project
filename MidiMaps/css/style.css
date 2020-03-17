@@ -41,7 +41,7 @@ html, body {
   #country{
     color: rgb(255, 255, 255);
     
-    background-color: rgba(143, 224, 184, 0.246);
+    /* background-color: rgba(143, 224, 184, 0.246); */
     height: 35px;
   }
   table {
@@ -119,8 +119,8 @@ html, body {
   #autocomplete {
     /* width: 100%;
     color: rgba(255, 255, 255, 0.322);
-    font-size: 14px;
     background-color: rgba(170, 153, 211, 0.233); */
+    font-size: 24px;
   }
   /* XXX */
   #country {
@@ -191,7 +191,8 @@ html, body {
 
 
   #sidebar-brand-country {
-    background-color: rgba(255, 255, 255, 0.13);
+    background-color: rgba(255, 255, 255, 0.233);
+    box-shadow: 10px 10px 10px #ffffff93;
     font-size: 2.2rem;
     letter-spacing: 0.25rem;
   }
