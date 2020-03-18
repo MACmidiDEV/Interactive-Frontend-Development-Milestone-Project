@@ -1,8 +1,11 @@
+//** 
 // In this project I have used the autocomplete feature of the Google Places API.
 // It will allow users to find all hotels in a given place, within a given
 // country. It then displays markers for all the hotels returned,
 // with on-click details for each hotel.
-var hotelSearchMap, map, pano, panorama, places, infoWindow;
+//*>
+
+var hotelSearchMap, map, pano, panorama, places, infoWindow;  
 var markers = [];
 var autocomplete;
 var countryRestrict = {'country': 'us'};
@@ -306,6 +309,7 @@ function onPlaceChanged() {
 function search() {
         var search = {
           bounds: hotelSearchMap.getBounds(),
+          // bounds: pano.getBounds(),
         //   bounds: map.getBounds(),
           types: ['lodging']
         };
@@ -430,9 +434,10 @@ function showInfoWindow() {
               if (status !== google.maps.places.PlacesServiceStatus.OK) {
                 return;
               }
-              infoWindow.open(hotelSearchMap, marker);
+              // infoWindow.open(hotelSearchMap, marker);
+              // infoWindow.open(pano, marker);
               infoWindow.open(map, marker);
-              infoWindow.open(pano, marker);
+          
               console.log(marker)
               var sv = new google.maps.StreetViewService();
               sv.getPanorama(
